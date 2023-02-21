@@ -13,7 +13,6 @@ struct ContentView: View {
             Color(red:0.09, green:0.63, blue:0.52)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                
                 Image("kirti")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -31,7 +30,7 @@ struct ContentView: View {
                     .font(.system(size: 25))
                 Divider()
                 InfoView(text: "+1 647 936 7608", imageName: "phone.fill")
-                InfoView(text: "kirtiparghi@email.com", imageName: "envelope.fill")
+                InfoView(text: "kirtiparghi@email.com", imageName: "envelope.fill")                
             }
         }
         
